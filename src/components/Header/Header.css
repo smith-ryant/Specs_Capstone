@@ -1,0 +1,40 @@
+/* header */
+
+.header {
+  height: 80px;
+  background-color: #33484d;
+  border-bottom: 2px solid #f0f0f0;
+  color: #f0f0f0;
+  padding: 0 10px;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-nav li {
+  padding: 0 10px;
+}
+
+.logout-btn {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1rem;
+  background: transparent;
+  border: 1px solid #002b36;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+.logout-btn:hover {
+  color: #f57145;
+}

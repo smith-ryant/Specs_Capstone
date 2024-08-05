@@ -1,0 +1,191 @@
+/* general layout of the form */
+.main-container {
+  display: flex;
+  height: 100vh;
+  background-color: #2d4e57;
+  color: #f0f0f0;
+}
+
+/* left side of the form (note list) */
+.sidebar {
+  width: 20%;
+  background-color: #002b36;
+  border-right: 2px solid #f57145;
+  padding: 10px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.add-note-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f57145;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-note-btn:hover {
+  background-color: #cc482c;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f57145;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #f57145;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.post-list-item:hover {
+  background-color: #2b2b2b;
+}
+
+/* middle section of the form (note editor) */
+.sidebar {
+  width: 20%;
+  background-color: #002b36;
+  border-right: 2px solid #f57145;
+  padding: 10px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.add-note-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f57145;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-note-btn:hover {
+  background-color: #cc482c;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #f57145;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-list-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #f57145;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.post-list-item:hover {
+  background-color: #2b2b2b;
+}
+
+/* right side of the form (note editor) */
+.note-editor {
+  width: 40%;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #002b36;
+}
+
+.markdown-preview {
+  margin-top: 20px;
+  border: 1px solid #f57145;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  padding: 15px;
+}
+
+/* privacy toggle */
+.privacy-toggle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.privacy-toggle input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.privacy-toggle label {
+  font-size: 1rem;
+  cursor: pointer;
+  color: #f0f0f0;
+}
+
+/* middle section button group */
+.note-viewer {
+  width: 40%;
+  border-right: 2px solid #f57145;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #002b36;
+  position: relative; /* Ensure positioning context for sticky */
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-btn {
+  padding: 10px 20px;
+  background-color: #f57145;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-btn:hover {
+  background-color: #e25c35;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
